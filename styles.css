@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to top right, #ffe0e9, #e0f7fa);
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  position: relative;
+}
+
+.message h1 {
+  font-size: 3em;
+  color: #ff4081;
+  margin-bottom: 0.2em;
+}
+
+.message p {
+  font-size: 1.5em;
+  color: #555;
+}
+
+.balloon {
+  width: 60px;
+  height: 80px;
+  border-radius: 50% 50% 50% 50% / 60% 60% 40%
